@@ -1,16 +1,61 @@
-# React + Vite
+# Shopsphere – E-commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Shopsphere is a responsive e-commerce web application built using React.js. The application allows users to browse products, search for items, manage favorites, and update cart quantities through an interactive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Product listing with 8 products
+* Search functionality
+* Favorites management
+* Shopping cart functionality
+* Cart quantity increment and decrement controls
+* Responsive design for mobile, tablet, and desktop devices
+* Reusable React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+https://shopsphere-web.netlify.app/
+
+## Installation
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+
+## Learning Outcomes
+
+* React component architecture
+* State management
+* Search implementation
+* Cart functionality (add, remove, update quantity)
+* Responsive web design
+
+## Screenshots
+
+* Home Page
+<div align="center"><img src="./screenshots/home.png" width="800" /></div>
+
+
+* Featured Products Page
+<div align="center"><img src="./screenshots/products.png" width="800" /></div>
+
+
+* Product Description Page
+<div align="center"><img src="./screenshots/productDescription.png" width="800" /></div>
+
+
+* Cart Page
+<div align="center"><img src="./screenshots/cart.png" width="800" /></div>
+
+
+* Wishlist Page
+<div align="center"><img src="./screenshots/wishlist.png" width="800" /></div>
